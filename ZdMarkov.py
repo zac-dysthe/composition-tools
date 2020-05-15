@@ -3,7 +3,7 @@ import random
 
 class ZdMarkov:
 
-    def __init__(self, training_data, order=1):
+    def __init__(self, training_data, order=1): # training_data must be 2-d list
         self.training_data = training_data
         self.order = order
 
